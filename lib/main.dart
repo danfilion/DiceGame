@@ -33,6 +33,8 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             flex: 1,
             child: FlatButton(
+              splashColor: Colors.transparent,
+              highlightColor: Colors.transparent,
               onPressed: () {
                 //rollBothDice();
                 print('Left button got pressed.');
@@ -46,6 +48,8 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             flex: 1,
             child: FlatButton(
+              splashColor: Colors.transparent,
+              highlightColor: Colors.transparent,
               onPressed: () {
                 print('Right button got pressed.');
                 setState(() {
